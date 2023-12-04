@@ -27,8 +27,4 @@ class Choice(models.Model):
     def __str__(self):
         return self.choice_text
 
-
-# Make sure our custom method worked.
-# >>> q = Question.objects.get(pk=1)
-# >>> q.was_published_recently()
-# True
+ #gitrequest
